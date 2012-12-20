@@ -28,10 +28,10 @@
 		<position>breadcrumbs</position>
 	</positions>
 	<languages folder="language">
-		<language tag="en-GB">en-GB/en-GB.tpl_strapped.ini</language>
+		<language tag="en-GB">en-GB/en-GB.tpl_interpunkt.ini</language>
 	</languages>
 	<config>
-		<fields name="params" addfieldpath="templates/strapped/admin/elements">>
+		<fields name="params" addfieldpath="templates/interpunkt/admin/elements">>
 			<fieldset name="basic">
 				<field name="template-width" type="radio" default="0" label="Template Width" description="Choose the width of your template">
 					<option value="0">Static</option>
@@ -44,17 +44,17 @@
 					<option value="5">5</option>
 				</field>
 			</fieldset>
-			<fieldset name="slide_1">
+			<fieldset name="SLIDE1">
 				<field name="slide_1_image" type="imagelist" default="" label="Select your slide image" description="" directory="/images/slides/" exclude="" stripext="" />
 				<field name="slide_1_titel" type="text" default="" label="Titel" description="Enter yoir titel" filter="raw" />
 				<field name="slide_1_text" type="textarea" default="default" label="Enter some text" description="" rows="5" cols="10" filter="raw"/>
 			</fieldset>
-			<fieldset name="slide_2">
+			<fieldset name="SLIDE2">
 				<field name="slide_2_image" type="imagelist" default="" label="Select your slide image" description="" directory="/images/slides/" exclude="" stripext="" />
 				<field name="slide_2_titel" type="text" default="" label="Titel" description="Enter yoir titel" filter="raw" />
 				<field name="slide_2_text" type="textarea" default="default" label="Enter some text" description="" rows="5" cols="10" filter="raw"/>
 			</fieldset>
-			<fieldset name="slide_3">
+			<fieldset name="SLIDE3">
 				<field name="slide_3_image" type="imagelist" default="" label="Select your slide image" description="" directory="/images/slides/" exclude="" stripext="" />
 				<field name="slide_3_titel" type="text" default="" label="Titel" description="Enter yoir titel" filter="raw" />
 				<field name="slide_3_text" type="textarea" default="default" label="Enter some text" description="" rows="5" cols="10" filter="raw"/>
